@@ -1,8 +1,6 @@
 package selftry.autowire.annotation;
-
 public class Address {
-	
-       private String street;
+	private String street;
        private String city;
 	public String getStreet() {
 		return street;
@@ -29,8 +27,5 @@ public class Address {
 	public String toString() {
 		return "Address [street=" + street + ", city=" + city + "]";
 	}
-       
-       
-       
-
+    
 }
